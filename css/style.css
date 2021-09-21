@@ -1,0 +1,499 @@
+/*GLOBAL STYLING*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.row-100{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.row-column{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+
+.row-column-100{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.red-button{
+    color: #ffffff;
+    background-color: #e71a23;
+    border-width: 0;
+    flex-shrink: 0;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 20px 35px;
+}
+
+.white-button{
+    border-color: #454545;
+    color: #454545;
+    background-color: transparent;
+    border-width: 1px;
+    flex-shrink: 0;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 20px 45px;
+}
+
+.cursor-point{
+    cursor: pointer;
+}
+
+.u-align-center {
+    text-align: center;
+}
+
+/*NAV BAR*/
+header{
+    justify-content: space-between;
+    background-color: #fff;
+    color: rgb(192, 187, 187);
+    padding: 23px 100px;
+}
+
+
+/* FIRST SECTION */
+
+.first-section{
+    background-image: url("https://i.postimg.cc/hjSbtSHN/image1.jpg");
+    background-size: cover;
+}
+.first-section-text .text-section{
+   padding-top: 16rem;
+   padding-left: 12.5rem;
+   padding-right: 12.5rem;
+   color: #fff;
+   font-size: 3.8rem;
+}
+.first-section-text .text-section h5{
+    font-weight: 10;
+    letter-spacing: .45rem;
+}
+.first-section .text-section h2{
+    font-weight: 800;
+}
+.underline1{
+    border-bottom: 10px solid white;
+    width: 36rem;
+    margin-top: 10px;
+}
+.first-section-text .first-icon{
+    color: #fff;
+    margin: .25rem;
+    padding-left: 4.5rem;
+    padding-top: 4.125rem;
+    padding-bottom: 9.5rem;
+}
+.first-icon .icon{
+    padding-left: 8.875rem;  
+}
+.first-icon .icon p{
+    padding: 1.5rem 0 3.125rem 0;
+    letter-spacing: 2px;
+}
+
+/* SECOND SECTION */
+.second-section{
+    background-color: #f8f4f4f8;
+    padding-top: 8.3rem;
+    padding-bottom: 2rem;
+}
+.pad-bottom{
+    padding-bottom: .9rem; 
+}
+.second-section #text1{
+    color: grey;
+    font-size: 1.2rem;
+    letter-spacing: .05rem;   
+}
+.second-section #text2{
+    font-size: 3rem;
+}
+.second-section #text3{
+    font-size: 1.25rem;
+    font-weight: 300;
+    width: 780px;
+    margin: 30px auto 0;
+    color: #111111;
+}
+.second-section button{
+    margin: 30px auto 60px;
+}
+
+/* THIRD SECTION*/
+
+.third-section .img1-text1{
+    width: 50%;
+    margin-top: 3.125rem;
+    margin-left: 17%;
+    margin-bottom: 1.25rem;
+}
+.third-section .img1-text1 p{
+    margin: 3.875rem;
+    letter-spacing: .05125rem;    
+}
+.third-section .img2-text2{
+    width: 50%;
+    margin-right: 13.5%;   
+}
+.third-section .img2-text2 h2{
+    padding-top: 4.875rem;
+    font-size: 2.2rem;
+}
+.third-section .img2-text2 h3{
+    color: #e71a23;
+    font-size: 1.8rem;
+}
+.third-section .img2-text2 img{
+    margin: 3rem 0;
+}
+
+/* FORTH SECTION*/
+
+.forth-section{
+    background-color: rgba(223, 222, 222, 0.925);
+}
+.forth-section .image-section{
+    width: 50%;
+    padding-left: 13.25rem;
+    padding-top: .625rem;
+}
+.forth-section .image-section img{
+    height: 700px;
+    width: auto;  
+}
+.forth-section .text-section{
+    width: 50%;
+    margin-top: 13.25rem ;
+    margin-right: 11.25rem;
+    margin-left: 2.5rem;  
+}
+.forth-section .text-section h2{
+    color: #104e92;
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+.forth-section .text-section .underline2{
+    border-bottom: 10px solid red;
+    width: 100%;
+    margin: 25px 0;
+}
+.forth-section .text-section p{
+    font-size: 1.25rem;
+    margin-top: 30px ;
+    margin-bottom: 30px ;
+    margin-right: 40px ;
+    line-height: 29px;
+    letter-spacing: 1.35px;   
+}
+   
+/*FIFTH SECTION*/
+.fifth-section{
+    background-color: #fff;
+    margin: 1px 0 100px 0;
+}
+.fifth-section h2{
+    font-size: 3rem;
+    margin: 50px 200px 30px 220px;
+}
+.fifth-section .major-container{
+    align-self: center;
+    width: 80%;
+    gap: 5%;
+    padding: 0 5rem;
+    margin: 0 1.625rem;
+}
+.fifth-section .major-container .container{
+    text-align: justify;   
+}
+.fifth-section .major-container .container .image1{
+    width: 20%;
+    height: 20%;  
+}
+.fifth-section .major-container .container  img{
+    background-color: #e71a23;
+    padding: 1.0625rem;
+    margin: .625rem;
+    border-radius: 50%; 
+    line-height: 0;
+    border-width: 0px;    
+}
+.fifth-section .major-container .container h5{
+    font-size: 1.5rem;
+    padding: .625rem 0 .9375rem .325rem;
+}
+.fifth-section .major-container .container p{
+    font-size: 1.125rem;
+    font-weight: 0.2%;
+    color: #111111e0;
+    font-style: italic;
+    margin: 20px 0 0;
+}
+
+/*SIXTH SECTION*/
+.sixth-section{
+    color: #ffffff;
+    background-color: #104e92;
+    align-items: center;
+}
+.sixth-section .text-row{
+    width: 50%;
+    text-align: left;
+    padding-left: 14.925rem;
+}
+.sixth-section .text-row h6{
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 1.625rem;
+    line-height: 1.2;
+}
+.sixth-section .text-row h3{
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 1;   
+}
+.sixth-section .img-column{
+    width: 50%;
+    margin: 6.125rem;
+}
+.sixth-section .img-column .image-form img{
+    height: 180px;
+    width: 250px;
+    padding: 10px 13px;
+}
+
+/*FOOTER OR SEVENTH SECTION*/
+.seventh-section{ 
+    width: 75%;
+    background-color: #fff;
+    padding: 7rem 0 4rem 0 ; 
+}
+.seventh-section .center-form{
+    margin-left: 24.3rem;
+}
+.seventh-section .center-form h3{
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-weight: 700;
+}
+.seventh-section .center-form p{
+    color: #111111;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 10;
+    margin: 1.5rem;
+}
+.seventh-section .center-form .button-red-white{
+    margin-left: 13rem;
+    gap: 15px;
+}
+
+/* MEDIA QUERY*/
+
+/*Extra large devices (large desktops, 1200px and up) */
+
+
+/* Large devices (desktops, less than 1200px) */
+
+@media (max-width: 1199.98px) { 
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    /*TAB GLOBAL STYLING*/
+    .height-30{
+        height: 30px;
+    }
+    .tab-column-flex{
+        display: flex;
+        width: 100%;
+        flex-direction: column;  
+    }
+
+    header{
+        padding: 20px 60px;
+    }
+     /*FIRST SECTION*/
+    .first-section .first-section-text{
+        padding:20px 0px 0 45px;
+    } 
+    .first-section .first-section-text .text-section{
+        padding: 0;
+    }
+    .first-section .first-section-text .first-icon{
+        padding: 0;
+    }
+    .first-section .first-section-text .text-section h5{
+        font-size: 2.75rem;
+        letter-spacing: 3px;
+        padding: 200px 0px 0 0px ;
+    }
+    .first-section .first-section-text .text-section h2{
+        font-size: 4.8rem;
+        letter-spacing: 3px;
+        padding: 2px 0px 0 0px ;
+    }
+    .first-section .first-section-text .underline1{
+        width: 32rem;
+    }
+    .first-section .first-section-text .first-icon .icon{
+        padding: 2.25rem 5rem 0 0;
+    }
+    .first-section .first-section-text .first-icon .icon img{
+        height: 4.25rem;
+    }
+
+    /*SECOND SECTION*/
+    .second-section #text3{
+        font-weight: 100;
+        width: 700px;
+    }
+
+    /*THIRD SECTION*/
+    .pad-left{
+        padding-left: 32px;
+    }
+
+    .third-section .img1-text1{
+        width: 100%;
+        margin-left: 9%;
+    }
+    .third-section .img1-text1 p{
+        margin: 3.875rem 5rem 0 2rem;
+        letter-spacing: .0525rem;
+    }
+    .third-section .img1-text1 img{
+        width: 41.95rem;
+        height: 22.25rem;
+    }
+
+    .third-section .img2-text2{
+        width: 100%;
+        padding-left: 4rem;
+    }
+    .third-section .img2-text2 img{
+        width: 41.95rem;
+        height: 22.25rem;
+        
+    }
+    /*FORTH SECTION*/
+    .forth-section .image-section{
+        padding-left: 12px;
+    }
+    .forth-section .image-section img{
+        height: 570px;
+        width: 400PX; 
+    }
+    .forth-section .text-section{
+        margin: 135px 0 0 ; 
+        padding-left: 1.625rem;
+    }
+    .forth-section .text-section h2{
+        width: 40%;
+        font-size: 3.15rem;
+        font-weight: 700;
+        line-height: 1.1;
+    }
+    .forth-section .text-section .underline2{
+        width: 80%;
+    }
+    .forth-section .text-section p{
+        font-size: 1.25rem;
+        line-height: 29px;
+        letter-spacing: 0px;   
+    }
+
+    /*FIFTH SECTION*/
+    .fifth-section h2{
+        margin: 50px 0 30px 70px;
+    }
+    .fifth-section .major-container{
+        width: 100%;
+        gap: 10%;
+    }
+    .fifth-section .major-container .container{
+        text-align:left;  
+    }
+    .fifth-section .major-container .container .image1{
+        width: 20%;
+        height: 20%;  
+    }
+    .fifth-section .major-container .container p{
+        font-size: 1.15rem;
+        letter-spacing: 1px;
+        line-height: 25px;
+    }
+
+    /*SIXTH SECTION*/
+
+    .sixth-section .text-row{
+        width: 100%;
+        text-align: left;
+        padding: 3rem 4rem 0;
+    }
+    .sixth-section .text-row h6{
+        font-size: 1.6rem;
+    }
+    .sixth-section .text-row h3{
+        font-size: 4rem;
+    }
+    .sixth-section .img-column{
+        width: 96%;
+        margin: 30px;
+    }
+    .sixth-section .img-column .image-form img{
+        height: 300px;
+        width: 370px;
+    }
+    /*FOOTER OR SEVENTH SECTION*/
+    
+    .seventh-section{ 
+        width: 100%;
+    }
+    .seventh-section .center-form{
+        margin: 0 1.5rem;
+    }
+   
+    .seventh-section .center-form p{
+        font-weight: 0;
+    }
+    .seventh-section .center-form .button-red-white{
+        margin-left: 220px;
+        gap: 10px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+    
+    
+
+ }
+
+
+ /* Small devices (landscape phones, less than 576px) */
+ 
