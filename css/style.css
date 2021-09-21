@@ -496,4 +496,198 @@ header{
 
 
  /* Small devices (landscape phones, less than 576px) */
- 
+ @media (max-width: 575.98px) { 
+    /* FIRST SECTION */
+    .first-section{
+        background-image: url("https://i.postimg.cc/Prn1N6Rz/background-Imagemobile.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    .first-section-text .text-section{
+        width: 100%;
+        padding: 0;
+        font-size: 0rem;
+        margin: 150px 0px 150px 0;
+    }
+    .first-section-text .text-section h5{
+        font-size: 0px;
+        font-weight: 10;
+        letter-spacing: 0;
+    
+    }
+    .first-section .text-section h2{
+        font-weight: 700;
+    }
+    .underline1{
+        border-bottom: 10px solid white;
+        width: 36rem;
+        margin-top: 10px;
+    }
+    .first-section-text .first-icon{
+        display: none;
+    }
+
+    .first-section .text-section h2{
+        font-weight: 800;
+    }
+
+    
+    /* SECOND SECTION */
+  
+    .second-section #text3{
+        font-weight: 100;
+        width: 320px; 
+        padding: 0;
+    }
+    .second-section button{
+        margin: 30px auto 60px;
+    }
+
+    
+    /* THIRD SECTION*/
+    .third-section .img1-text1{
+        width: 100%;
+        margin: 40px;
+    }
+    .third-section .img1-text1 p{
+        margin: 1.5rem 3rem 0 0;
+        padding-right: 3px;
+        letter-spacing: .1rem;
+        text-align: left;
+    }
+    .third-section .img1-text1 img{
+        width: 17.95rem;
+        height: 15.25rem;
+    }
+
+    .third-section .img2-text2{
+        width: 100%;
+        padding-left: 2rem;
+    }
+    .third-section .img2-text2 img{
+        width: 18.95rem;
+        height: 15.25rem;
+    }
+
+    .third-section .img2-text2 h2{
+        padding-top: .375rem;
+        padding-left: 2px;
+        font-size: 1.6rem;
+    }
+    .third-section .img2-text2 h3{
+        padding-left: 1px;
+        font-size: 1.3rem;
+    }
+    /* FORTH SECTION*/
+    .mobile-column-flex{
+        display: flex;
+        width: 100%;
+        flex-direction: column;  
+    }
+
+    .forth-section .image-section{
+        width: 100%;
+        padding-left: .71rem;
+        padding-top: .625rem;
+    }
+    .forth-section .image-section img{
+        height: 480px;
+        width: 350px;  
+        overflow: hidden;
+    }
+    .forth-section .text-section{
+        width: 100%;
+        margin: 10.25rem 11.25rem 2rem 2rem;
+    }
+    .forth-section .text-section h2{
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    .forth-section .text-section .underline2{
+      
+        width: 80%;
+        margin: 25px 0;
+    }
+    .forth-section .text-section p{
+        font-size: 1.2rem;
+        margin-top: 30px ;
+        margin-bottom: 30px ;
+        margin-right: 50px ;
+        line-height: 29px;
+        letter-spacing: 0px;   
+    }
+       
+    /*FIFTH SECTION*/
+    .fifth-section h2{
+        font-size: 3rem;
+        margin: 50px 30px 0;
+    }
+    .fifth-section .major-container{
+        align-self: flex-start;
+        width: 80%;
+        gap: 10%;
+        padding: 0 1rem;
+        margin: 0 0.25rem;
+    }
+    
+    /*SIXTH SECTION*/
+    .sixth-section{
+      
+        align-items: center;
+    }
+    .sixth-section .text-row{
+        width: 100%;
+        text-align: left;
+        padding: 2.625rem 2.925rem 1.6rem 2.5rem ;
+    }
+    
+    .sixth-section .text-row h3{
+        font-size: 4rem;
+        font-weight: 600;
+        line-height: 1;   
+    }
+    .sixth-section .img-column{
+        width: 90%;
+        margin: 2.125rem;
+    }
+    .sixth-section .img-column .image-form img{
+        height: 280px;
+        width: 350px;
+        padding: 10px 13px;
+    }
+    
+    /*FOOTER OR SEVENTH SECTION*/
+    .seventh-section{ 
+        width: 100%;
+        background-color: #fff;
+        padding: 7rem 0 4rem 0 ; 
+    }
+    .seventh-section .center-form{
+        margin-left: 2.4rem;
+    }
+    .seventh-section .center-form h3{
+        font-size: 2.25rem;
+        line-height: 1.1;
+        font-weight: 700;
+    }
+    .seventh-section .center-form p{
+        color: #111111;
+        font-size: 2rem;
+        line-height: 1.5;
+        font-weight: 10;
+        margin: 1.5rem;
+    }
+    .seventh-section .center-form .button-red-white{
+        margin : 0rem 0rem ;
+        gap: 30px;
+     
+    }
+    .red-button{
+        padding: 20px 10px;
+    }
+    
+    .white-button{
+        padding: 20px 10px;
+    }
+
+  }
